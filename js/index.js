@@ -41,11 +41,22 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
+//Adding text to nav
 let navAnchors = document.querySelectorAll('a');
-
 navAnchors[0].textContent = "Services";
 navAnchors[1].textContent = "Product";
 navAnchors[2].textContent = "Vision";
 navAnchors[3].textContent = "Features";
 navAnchors[4].textContent = "About";
 navAnchors[5].textContent = "Contact";
+
+//cta section
+let ctaH1 = document.querySelector('.cta-text h1');
+ctaH1.textContent = "dom is awesome";
+
+let ctaButton = document.querySelector('.cta-text button');
+ctaButton.textContent = "Get Started";
+
+let ctaImg = document.getElementById("cta-img");
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
+
