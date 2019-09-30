@@ -52,7 +52,8 @@ navAnchors[5].textContent = "Contact";
 
 //cta section
 let ctaH1 = document.querySelector('.cta-text h1');
-ctaH1.textContent = "dom is awesome";
+ctaH1.style.whiteSpace = 'pre';
+ctaH1.textContent = 'dom\n is\n Awesome';
 
 let ctaButton = document.querySelector('.cta-text button');
 ctaButton.textContent = "Get Started";
